@@ -1,19 +1,13 @@
 import React from 'react'
-import StarRating from './starRating'
+import StarRating from './StarRating'
 
 const Testimonial = ({item}) => {
+
   return (
+
     
     <div className="testimonial">
       <img className="client" src="images/icon.svg" alt="Client Icon"/>
-
-      <div className="star-rating">
-        <i className="fa-sharp fa-solid fa-star"></i>
-        <i className="fa-sharp fa-solid fa-star"></i>
-        <i className="fa-sharp fa-solid fa-star"></i>
-        <i className="fa-sharp fa-solid fa-star"></i>
-        <i className="fa-sharp fa-regular fa-star"></i>
-      </div>
       <StarRating starRating={item.starRating}/>
       <p>
         {item.comment}
