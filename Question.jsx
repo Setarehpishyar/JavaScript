@@ -39,4 +39,4 @@ const Question = () => {
     );
 };
 
-export defaul
+export defaul Question;
